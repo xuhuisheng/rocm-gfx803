@@ -17,8 +17,10 @@ My environments
 
 Install ROCm First <https://rocmdocs.amd.com/en/latest/Installation_Guide/Installation-Guide.html#ubuntu>
 
-* pytorch-1.8.1
-* torchvision-1.9
-* rocblas-2.36.0
-* rocrand-2.10.7
+|component  |version|size|
+|-----------|-------|----|
+|Pytorch    |1.8.1  |189M|
+|torchvision|0.9.1  |19M |
+|rocblas    |2.36.0 |7M  |
+|rocrand    |2.10.7 |5.1M|
 
