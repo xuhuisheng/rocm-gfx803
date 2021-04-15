@@ -11,7 +11,7 @@ My environments
 |--------------|------|-----|-----|
 |Ubuntu-20.04.2|3.8.5 |4.1.1|RX580|
 
-## ROCm-4.1
+## ROCm-4.1.1
 
 <https://github.com/xuhuisheng/rocm-gfx803/releases/tag/rocm41>
 
@@ -23,4 +23,15 @@ Install ROCm First <https://rocmdocs.amd.com/en/latest/Installation_Guide/Instal
 |torchvision|0.9.1  |19M |<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm41/torchvision-0.9.0a0+8fb5838-cp38-cp38-linux_x86_64.whl>|
 |rocblas    |2.36.0 |7M  |<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm41/rocblas_2.36.0-93c82939_amd64.deb>|
 |rocrand    |2.10.7 |5.1M|<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm41/rocrand_2.10.7-c73b16d_amd64.deb>|
+
+## ROCm-3.5.1
+
+<https://github.com/xuhuisheng/rocm-gfx803/releases/tag/rocm35>
+
+Install ROCm-3.5.1 First <https://github.com/boriswinner/RX580-rocM-tensorflow-ubuntu20.4-guide>
+
+|component  |version|size|link|
+|-----------|-------|----|----|
+|Pytorch    |1.7.0  |189M|<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm35/torch-1.7.0a0-cp38-cp38-linux_x86_64.whl>|
+|torchvision|0.8.0  |19M |<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm35/torchvision-0.8.0a0+2f40a48-cp38-cp38-linux_x86_64.whl>|
 
