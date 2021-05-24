@@ -21,9 +21,9 @@ Install ROCm First <https://rocmdocs.amd.com/en/latest/Installation_Guide/Instal
 |-----------|-------|----|----|
 |pytorch    |1.8.1  |189M|<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm41/torch-1.8.0a0+56b43f4-cp38-cp38-linux_x86_64.whl>|
 |torchvision|0.9.1  |19M |<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm41/torchvision-0.9.0a0+8fb5838-cp38-cp38-linux_x86_64.whl>|
-|rocblas    |2.38.0 |7M  |<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm42/rocblas_2.38.0-1d398335.dirty_amd64.deb>|
+|rocblas    |2.38.0 |7.3M|<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm42/rocblas_2.38.0-1d398335.dirty_amd64.deb>|
 |rocrand    |2.10.9 |5.1M|<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm42/rocrand_2.10.9-220a6ff_amd64.deb>|
-|miopen     |2.11.0 |5.1M|<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm42/miopen-hip_2.11.0-dd38ed4f7.dirty_amd64.deb>|
+|miopen     |2.11.0 |73M |<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm42/miopen-hip_2.11.0-dd38ed4f7.dirty_amd64.deb>|
 
 1. `sudo apt install rocm-dkms rocm-libs`
 2. `sudo dpkg -i rocblas_2.38.0-1d398335.dirty_amd64.deb`
