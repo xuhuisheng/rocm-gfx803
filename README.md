@@ -24,7 +24,7 @@ Install ROCm First <https://rocmdocs.amd.com/en/latest/Installation_Guide/Instal
 |rocblas    |2.39.0 |7.4M|<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm43/rocblas_2.39.0-8328dcce.dirty_amd64.deb>|
 
 1. `sudo apt install rocm-dkms rocm-libs`
-2. `sudo dpkg -i rocblas_2.39.0-8328dcce~dirty_amd64.deb`
+2. `sudo dpkg -i rocblas_2.39.0-8328dcce.dirty_amd64.deb`
 3. `pip3 install torch-1.9.0a0+gitd69c22d-cp38-cp38-linux_x86_64.whl`
 4. `pip3 install torchvision-0.10.0a0+300a8a4-cp38-cp38-linux_x86_64.whl`
 
