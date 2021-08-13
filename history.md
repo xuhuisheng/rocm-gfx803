@@ -1,6 +1,27 @@
 
 # history
 
+## ROCm-4.2.0
+
+<https://github.com/xuhuisheng/rocm-gfx803/releases/tag/rocm42>
+
+Install ROCm First <https://rocmdocs.amd.com/en/latest/Installation_Guide/Installation-Guide.html#ubuntu>
+
+|component  |version|size|link|
+|-----------|-------|----|----|
+|pytorch    |1.8.1  |189M|<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm41/torch-1.8.0a0+56b43f4-cp38-cp38-linux_x86_64.whl>|
+|torchvision|0.9.1  |19M |<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm41/torchvision-0.9.0a0+8fb5838-cp38-cp38-linux_x86_64.whl>|
+|rocblas    |2.38.0 |7.3M|<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm42/rocblas_2.38.0-1d398335.dirty_amd64.deb>|
+|rocrand    |2.10.9 |5.1M|<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm42/rocrand_2.10.9-220a6ff_amd64.deb>|
+|miopen     |2.11.0 |73M |<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm42/miopen-hip_2.11.0-dd38ed4f7.dirty_amd64.deb>|
+
+1. `sudo apt install rocm-dkms rocm-libs`
+2. `sudo dpkg -i rocblas_2.38.0-1d398335.dirty_amd64.deb`
+3. `sudo dpkg -i rocrand_2.10.9-220a6ff_amd64.deb`
+3. `sudo dpkg -i miopen-hip_2.11.0-dd38ed4f7.dirty_amd64.deb`
+4. `pip3 install torch-1.8.0a0+56b43f4-cp38-cp38-linux_x86_64.whl`
+5. `pip3 install torchvision-0.9.0a0+8fb5838-cp38-cp38-linux_x86_64.whl`
+
 ## ROCm-4.1.1
 
 <https://github.com/xuhuisheng/rocm-gfx803/releases/tag/rocm41>
