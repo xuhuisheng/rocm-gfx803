@@ -9,7 +9,7 @@ This repo upload some archieves for ROCm with gfx803 after ROCm-4.0.
 
 |OS            |linux|Python|ROCm |GPU  |
 |--------------|-----|------|-----|-----|
-|Ubuntu-20.04.2|5.11 |3.8.5 |4.3.1|RX580|
+|Ubuntu-20.04.2|5.11 |3.8.10|4.3.1|RX580|
 
 <https://github.com/xuhuisheng/rocm-gfx803/releases/tag/rocm43>
 
