@@ -7,9 +7,9 @@ This repo upload some archieves for ROCm with gfx803 after ROCm-4.0.
 
 My environments
 
-|OS            |Python|ROCm |GPU  |
-|--------------|------|-----|-----|
-|Ubuntu-20.04.2|3.8.10|4.3.1|RX580|
+|OS            |linux|Python|ROCm |GPU  |
+|--------------|-----|------|-----|-----|
+|Ubuntu-20.04.2|5.11 |3.8.5 |4.3.1|RX580|
 
 ## ROCm-4.3.1
 
@@ -31,6 +31,10 @@ Install ROCm First <https://rocmdocs.amd.com/en/latest/Installation_Guide/Instal
 5. `pip3 install tensorflow-2.6.0-cp38-cp38-linux_x86_64.whl`
 
 ## ROCm-3.5.1
+
+|OS            |linux|Python|ROCm |GPU  |
+|--------------|-----|------|-----|-----|
+|Ubuntu-20.04  |5.4  |3.8.5 |3.5.1|RX580|
 
 <https://github.com/xuhuisheng/rocm-gfx803/releases/tag/rocm35>
 
