@@ -13,13 +13,13 @@ This repo upload some archieves for ROCm with gfx803 after ROCm-4.0.
 
 <https://github.com/xuhuisheng/rocm-gfx803/releases/tag/rocm500>
 
-Install ROCm First <https://rocmdocs.amd.com/en/latest/Installation_Guide/Installation-Guide.html#ubuntu>
+Install ROCm First <https://docs.amd.com/bundle/ROCm_Installation_Guide-v5.0/page/Overview_of_ROCm_Installation_Methods.html>
 
 |component  |version|size |link|
 |-----------|-------|-----|----|
 |rocblas    |2.42.0 |9.71M|<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm500/rocblas_2.42.0-60c5f03d.dirty_amd64.deb>|
 
-1. `sudo apt install rocm-dkms rocm-libs`
+1. Install ROCm-5.0.0
 2. `sudo dpkg -i rocblas_2.42.0-60c5f03d.dirty_amd64.deb`
 
 ## ROCm-3.5.1
