@@ -17,10 +17,10 @@ Install ROCm First <https://rocmdocs.amd.com/en/latest/Installation_Guide/Instal
 
 |component  |version|size |link|
 |-----------|-------|-----|----|
-|rocblas    |2.42.0 |    M|<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm500/>|
+|rocblas    |2.42.0 |9.71M|<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm500/rocblas_2.42.0-60c5f03d.dirty_amd64.deb>|
 
 1. `sudo apt install rocm-dkms rocm-libs`
-2. `sudo dpkg -i rocblas_2.42.0-337552f0.dirty_amd64.deb`
+2. `sudo dpkg -i rocblas_2.42.0-60c5f03d.dirty_amd64.deb`
 
 ## ROCm-3.5.1
 
