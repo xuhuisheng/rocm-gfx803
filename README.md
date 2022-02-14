@@ -28,7 +28,7 @@ Install ROCm First <https://docs.amd.com/bundle/ROCm_Installation_Guide-v5.0/pag
 4. `pip3 install torchvision-0.12.0a0+2662797-cp38-cp38-linux_x86_64.whl`
 5. `pip3 install tensorflow_rocm-2.8.0-cp38-cp38-linux_x86_64.whl`
 
-PS: I tried pytorch-1.10.2, there is a compiling error for cannot 
+PS: I tried pytorch-1.8.2 and pytorch-1.10.2, there is a compiling error for cannot resolve chain iterator in rocPRIM. There latest pytorch-1.11.0-rc2 seems resolved this problem.
 
 ## ROCm-3.5.1
 
