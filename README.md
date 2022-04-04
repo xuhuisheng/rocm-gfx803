@@ -17,7 +17,7 @@ Install ROCm First <https://docs.amd.com/bundle/ROCm_Installation_Guide-v5.1/pag
 
 |component  |version   |size   |link|
 |-----------|----------|-------|----|
-|rocblas    |2.43.0    |9.71M  |<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm510/rocblas_2.43.0-490c4140.dirty_amd64.deb>|
+|rocblas    |2.43.0    |9.8M   |<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm510/rocblas_2.43.0-490c4140.dirty_amd64.deb>|
 |pytorch    |1.11.0-rc2|145.14M|<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm500/torch-1.11.0a0+git503a092-cp38-cp38-linux_x86_64.whl>
 |torchvision|0.12.0-rc1|18.47M |<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm500/torchvision-0.12.0a0+2662797-cp38-cp38-linux_x86_64.whl>
 |tensorflow |2.8.0     |300.22M|<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm500/tensorflow_rocm-2.8.0-cp38-cp38-linux_x86_64.whl>|
