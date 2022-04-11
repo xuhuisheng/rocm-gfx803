@@ -5,11 +5,11 @@ This repo upload some archieves for ROCm with gfx803 after ROCm-4.0.
 
 <https://github.com/xuhuisheng/rocm-build/tree/master/gfx803>
 
-## ROCm-5.1.0
+## ROCm-5.1.1
 
 |OS            |linux|Python|ROCm |GPU  |
 |--------------|-----|------|-----|-----|
-|Ubuntu-20.04.4|5.13 |3.8.10|5.1.0|RX580|
+|Ubuntu-20.04.4|5.13 |3.8.10|5.1.1|RX580|
 
 <https://github.com/xuhuisheng/rocm-gfx803/releases/tag/rocm510>
 
@@ -17,7 +17,7 @@ Install ROCm First <https://docs.amd.com/bundle/ROCm_Installation_Guide-v5.1/pag
 
 |component  |version   |size   |link|
 |-----------|----------|-------|----|
-|rocblas    |2.43.0    |9.8M   |<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm510/rocblas_2.43.0-490c4140.dirty_amd64.deb>|
+|rocblas    |2.43.0    |9.8M   |<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm511/rocblas_2.43.0-490c4140.dirty_amd64.deb>|
 |pytorch    |1.11.0-rc2|145.14M|<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm500/torch-1.11.0a0+git503a092-cp38-cp38-linux_x86_64.whl>
 |torchvision|0.12.0-rc1|18.47M |<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm500/torchvision-0.12.0a0+2662797-cp38-cp38-linux_x86_64.whl>
 |tensorflow |2.8.0     |300.22M|<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm500/tensorflow_rocm-2.8.0-cp38-cp38-linux_x86_64.whl>|
