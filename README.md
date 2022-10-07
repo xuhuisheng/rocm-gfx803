@@ -17,13 +17,13 @@ Install ROCm First <https://docs.amd.com/bundle/ROCm-Installation-Guide-v5.3/pag
 
 |component  |version   |size   |link|
 |-----------|----------|-------|----|
-|rocblas    |2.45.0    |9.8M   |<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm530/rocblas_2.45.0.50300-63_amd64.deb>|
+|rocblas    |2.45.0    |9.8M   |<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm530/rocblas_2.45.0.50300-63.20.04_amd64.deb>|
 |pytorch    |1.11.0-rc2|145.14M|<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm500/torch-1.11.0a0+git503a092-cp38-cp38-linux_x86_64.whl>
 |torchvision|0.12.0-rc1|18.47M |<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm500/torchvision-0.12.0a0+2662797-cp38-cp38-linux_x86_64.whl>
 |tensorflow |2.8.0     |300.22M|<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm500/tensorflow_rocm-2.8.0-cp38-cp38-linux_x86_64.whl>|
 
 1. Install ROCm-5.3.0
-2. `sudo dpkg -i rocblas_2.45.0.50300-63_amd64.deb`
+2. `sudo dpkg -i rocblas_2.45.0.50300-63.20.04_amd64.deb`
 3. `pip3 install torch-1.11.0a0+git503a092-cp38-cp38-linux_x86_64.whl`
 4. `pip3 install torchvision-0.12.0a0+2662797-cp38-cp38-linux_x86_64.whl`
 5. `pip3 install tensorflow_rocm-2.8.0-cp38-cp38-linux_x86_64.whl`
