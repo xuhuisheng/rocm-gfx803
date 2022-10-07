@@ -1,6 +1,31 @@
 
 # history
 
+## ROCm-5.2.0
+
+|OS            |linux|Python|ROCm |GPU  |
+|--------------|-----|------|-----|-----|
+|Ubuntu-20.04.4|5.13 |3.8.10|5.2.0|RX580|
+
+<https://github.com/xuhuisheng/rocm-gfx803/releases/tag/rocm520>
+
+Install ROCm First <https://docs.amd.com/bundle/ROCm-Installation-Guide-v5.2/page/Overview_of_ROCm_Installation_Methods.html>
+
+|component  |version   |size   |link|
+|-----------|----------|-------|----|
+|rocblas    |2.44.0    |9.8M   |<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm520/rocblas_2.44.0.50200-65_amd64.deb>|
+|pytorch    |1.11.0-rc2|145.14M|<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm500/torch-1.11.0a0+git503a092-cp38-cp38-linux_x86_64.whl>
+|torchvision|0.12.0-rc1|18.47M |<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm500/torchvision-0.12.0a0+2662797-cp38-cp38-linux_x86_64.whl>
+|tensorflow |2.8.0     |300.22M|<https://github.com/xuhuisheng/rocm-gfx803/releases/download/rocm500/tensorflow_rocm-2.8.0-cp38-cp38-linux_x86_64.whl>|
+
+1. Install ROCm-5.2.0
+2. `sudo dpkg -i rocblas_2.44.0.50200-65_amd64.deb`
+3. `pip3 install torch-1.11.0a0+git503a092-cp38-cp38-linux_x86_64.whl`
+4. `pip3 install torchvision-0.12.0a0+2662797-cp38-cp38-linux_x86_64.whl`
+5. `pip3 install tensorflow_rocm-2.8.0-cp38-cp38-linux_x86_64.whl`
+
+PS: You may need `export LD_LIBRARY_PATH=/opt/rocm/lib` to resolve cannot find libmiopen.so error.
+
 ## ROCm-5.1.3
 
 |OS            |linux|Python|ROCm |GPU  |
