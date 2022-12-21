@@ -30,7 +30,7 @@ The `kernel_gfx803.fatbin` is on the `blender331-gfx803/3.3/scripts/addons/cycle
 
 My modification is very simple.
 
-1. modify `intern/cycles/device/hip/compat.h`, change all of `__noinline__` to `__inline__`
+1. modify `intern/cycles/kernel/device/hip/compat.h`, change all of `__noinline__` to `__inline__`
 2. modify `intern/cycles/device/hip/util.h`, change `9` to `8`, then cycles can use gfx803.
 
 ---
