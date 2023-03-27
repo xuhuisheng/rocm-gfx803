@@ -45,3 +45,17 @@ My suggestion is just buy a ROCm offically supported card, like Vega64, RadeonVI
 
 ![cycles2](images/cycles2.png)
 
+## blender-3.4.1 and ROCm-5.4.1
+
+|OS            |linux|Python|ROCm |GPU  |Blender|
+|--------------|-----|------|-----|-----|-------|
+|Ubuntu-20.04.6|5.15 |3.8.10|5.4.1|RX580|3.4.1  |
+
+I tried blender-3.4.1 with ROCm-5.4.1, at least cube demo can render properly. The modification is just same.
+
+![blender-3.4.1](images/1-blender341-version.png)
+
+![blender-3.4.1](images/2-blender341-gfx803.png)
+
+![blender-3.4.1](images/3-blender341-smi.png)
+
